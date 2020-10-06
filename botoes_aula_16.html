@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        var names = ["Olá", "Salve", "Galera", "Tudo", "bem?", "uau"]
+
+        function mostraSequencia(names) {
+            var i = 0;
+
+            while (i < names.length) {
+                var name = names[i];
+
+                document.write(`<button onclick = "alert (' ` + name + ` ')">  ` + name + ` </button> <br><br>`);
+
+                i++
+            }
+        }
+
+        mostraSequencia(names);
+
+
+    </script>
+</body>
+
+</html>
